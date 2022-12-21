@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="My App"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Formulaire d'inscription"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="Prenom"
+            android:paddingBottom="3dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+
+            android:gravity="center"
+            android:hint="Nom"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/EMAIL"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="Adresse email"
+            android:paddingBottom="3dp"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/telephone"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="Numéro de téléphone"
+            android:paddingBottom="3dp"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/pays"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/pays"
+            android:gravity="center"
+            android:scrollbarSize="20dp"
+            android:spinnerMode="dialog"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/Ville"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/ville"
+            android:gravity="center"
+            android:scrollbarSize="25dp"
+            android:spinnerMode="dialog"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Accepter les CGU"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/valider"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/green"
+            android:gravity="center"
+            android:text="Valider"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/annuler"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/RED"
+            android:gravity="center"
+            android:text="Annuler"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

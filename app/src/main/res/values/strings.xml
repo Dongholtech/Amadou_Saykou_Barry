@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppSaykou</string>
+    <string-array name="pays">
+        <item>Pays</item>
+        <item>France</item>
+        <item>Canada</item>
+        <item>Italie</item>
+        <item>Suisse</item>
+        <item>Alemagne</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="ville">
+        <item>Ville</item>
+        <item>Paris</item>
+        <item>Toronto</item>
+        <item>Rome</item>
+        <item>Berne</item>
+        <item>Berlin</item>
+        <item>New York</item>
+    </string-array>
+</resources>
